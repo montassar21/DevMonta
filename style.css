@@ -164,10 +164,10 @@ animation: slide 12s steps(2) infinite;
  }
  .click-know-me{
     display: inline-flex;
-    width:44.5vw;
-    height:13vw;
+    width:44.9vw;
+    height:14vw;
 position: absolute;
-top:6.7vw;
+top:7vw;
 left:4vw;
     background-color: rgb(81, 218, 235,1);
     border-radius: 8px;
@@ -182,8 +182,8 @@ left:4vw;
     float: center;
 }  
 .who{
-    margin-top:3.5vw;
     margin-bottom: 2.4vw;;
+    margin-top: 3vw;
     padding-bottom: 0.8vw;
     width:25vw;
     text-align: center;
@@ -195,8 +195,23 @@ left:4vw;
     background-color: rgb(0,0,0,0.9);
     z-index: 900;
 }
-.who h3{
-    background-image: url(back.png);
+.whoaa{
+    margin-bottom: 2.4vw;;
+    padding-bottom: 0.8vw;
+    width:25vw;
+    text-align: center;
+    position: relative;
+    left:31.5vw;
+    top:2vw;
+    margin-bottom: 4.5vw;;
+    font-size: 3vw;
+    font-weight: bold;
+    box-shadow: 0px 0px 7px rgb(19, 10, 10);
+    background-color: rgb(0,0,0,0.9);
+    z-index: 900;
+}
+.who h3,.whoaa h3{
+    background-image: url(images/back.png);
     color:transparent;
     -webkit-text-stroke: 1px rgb(81, 218, 235,1); 
     -webkit-background-clip: text;
@@ -208,10 +223,11 @@ left:4vw;
     background-position:200px 0;}
 }
 .am{
-    height:34vw;
-    margin-left:5vw;
-    margin-right:2vw;
-    margin-top: 2vw;;
+    height:42vw;
+    padding-left: 5vw;
+    background: url(images/imm.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 .i1,.i2,.i3{
     display:inline-flex;
@@ -875,7 +891,9 @@ footer{
 }
 footer div{
     position: relative;
-    top:-2vw;
+    width:20vw;
+    top:-3.5vw;
+    left:40vw;
     align-items: center;
     text-align: center;
     font-size: 1.4vw;
@@ -883,13 +901,14 @@ footer div{
 .socmed{
     display: inline-block;
     pointer-events: all;
-    margin-top: 1vw;;
     margin-left: 1.5vw;;
-  top:1vw;
+    padding-top: 1vw;
    width:3vw;
+   height: 5vw;
    font-size: 2vw;
    color: white;
    transition:0.2s;
+   z-index: 1000;
 
 }
 .socmed:hover{
@@ -944,7 +963,7 @@ footer div{
     }
     .fa-bars{
         position: relative;
-        left:54vw;
+        left:58vw;
         top:2.2vw;
         font-size: 5.5vw;
         color:white;
@@ -971,11 +990,8 @@ width:100%; }
         opacity:0;
     }
     .am{
-        height:134vw;
-        margin-left:5vw;
-        margin-right:2vw;
-        margin-top: 2vw;;
-    }
+        height:145vw;   }
+        
     .i1,.i2,.i3{
         display:block;
         width:85vw;
@@ -1011,7 +1027,7 @@ width:100%; }
         margin-top: 1vw;;
          margin-right:1.5vw;
          margin-left:4.5vw;
-         background-image:url("images5.jpg");
+         background-image:url("images/5.jpg");
          background-repeat: no-repeat;
          background-size: contain;
          animation:slide2 20s infinite;
@@ -1464,35 +1480,32 @@ textarea{
     margin:0.3vw 0;
 
 }
+.click-know-me{
+    width:45vw;
+    height:16vw;
+top:12vw;
+left:4vw;
+ }
+ .click-know-me span{
+    padding:0.4vw; 
+    font-size: 1.7vw;
+} 
+.socmed{
+    position: relative;
+    margin-top: 0.5vw;;
+    margin-left: 1.5vw;;
+    height: 3vw;;
+  top:-1vw;
+   font-size: 2.5vw;
+   color: white;
+   transition:0.2s;
+   pointer-events: all;
+   z-index: 1003;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.socmed:hover{
+    display: inline-block;
+    color:#37869e;
+} 
+}
 
