@@ -5,8 +5,7 @@
         }
         else {
             box.style.visibility="hidden";
-        }
-    })
+        }    })
 function sendEmail(){
         Email.send({
     Host:"Smtp.gmail.com",
