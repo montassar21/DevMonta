@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>First Page</title>
+        <title>Portfolio</title>
         <meta name="description" content="hello">
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">   
@@ -232,36 +232,7 @@
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.js"></script>
 
-<script>
-    function sendEmail(){
-        Email.send({
-    Host:"Smtp.gmail.com",
-     Username:"brahemmonta@gmail.com",
-    Password:"ntmsqjvtapglkbgr",
-    To : "brahemmonta@gmail.com",
-    From : document.getElementById("email").value,
-    Subject : "New contact from Enquiry",
-    Body : "Name : "+document.getElementById("name").value+
-    "<br> Email :" +document.getElementById("email").value+
-    "<br> Phone :" +document.getElementById("phone").value+
-    "<br> Message :" +document.getElementById("message").value
-
-}).then(
-  message => alert("Message Sent Successfully")
-);
-    }
-</script>
-<script>
-    document.getElementById("click").addEventListener("click",function(){
-        var box=document.getElementById("knowme");
-        if(box.style.visibility=="hidden"){
-            box.style.visibility="visible";
-        }
-        else {
-            box.style.visibility="hidden";
-        }
-    })
-</script>
+<script src="script.js"></script>
 <script>
     AOS.init();
   </script>
