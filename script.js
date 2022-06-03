@@ -6,10 +6,11 @@
         else {
             box.style.visibility="hidden";
         }
-    });
+    })
 function sendEmail(){
         Email.send({
-    SecureToken : "a81542ea-828f-42bb-9be7-03d9940014f8",
+    Host:"Smtp.gmail.com",
+    SecureToken : "1b6907e4-4efd-4dd6-9a1c-0bae9c0d15a4",
     To : "brahemmonta@gmail.com",
     From : document.getElementById("email").value,
     Subject : "New contact from Enquiry",
